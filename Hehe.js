@@ -5,3 +5,4 @@ console.log("第二次");
 console.log("ZZZZZZZ");
 
 console.log("朱芬志");
+console.log("bug");
