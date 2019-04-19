@@ -1,16 +1,16 @@
-Git控制器
-    1.学习地址：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-    2.git和svn的区别
+#Git控制器
+    1. 学习地址：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+    2. git和svn的区别
         svn：集中式服务器
         git：分布式服务器   
-    3.初始化身份
+    3. 初始化身份
         git config --global user.name "iwen"
         git config --global user.email "iwen@iwenwiki.com"
-    4.创建仓库
+    4. 创建仓库
         初始化仓库：git init
         添加到仓库：git add filename
         提交到仓库：git commit -m '注释'
-    5.时光穿梭
+    5. 时光穿梭
         查看仓库状态：git status
         查看仓库状态(具体改变内容)：git diff
         查看历史版本：git log
@@ -25,14 +25,14 @@ Git控制器
                 git commit -m '删除文件'
             找回来文件：
                 git checkout -- test.txt
-    6.分支管理
+    6. 分支管理
         创建与并切换分支：git checkout -b <name>
         查看分支：git branch
         创建分支：git branch <name>
         切换分支：git checkout <name>
         合并某分支到当前分支：git merge <name>
         删除分支：git branch -d <name>
-    7.推送到远程仓库
+    7. 推送到远程仓库
         github平台：
             1.生成ssh
                 ssh-keygen -t rsa -C "975561646@qq.com"
