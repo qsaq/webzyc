@@ -44,3 +44,11 @@
                     git push -u origin master
                 以后：
                     git push
+            gitee平台：
+                1.克隆仓库：git clone https://gitee.com/iwensxt/web1811.git
+                2.上传操作
+                3.多人协作：
+    8.远程仓库的命令：
+        git clone url
+        git push
+        git pull        
